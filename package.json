@@ -1,0 +1,30 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "description": "Mean stack messenger app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcrypt": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolay-is/Messenger.git"
+  },
+  "author": "NIS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolay-is/Messenger/issues"
+  },
+  "homepage": "https://github.com/nikolay-is/Messenger#readme"
+}
