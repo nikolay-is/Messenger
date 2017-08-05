@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-// import { CommonModule } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { FormsModule }   from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
@@ -26,7 +27,7 @@ const appRoutes: Routes = [
     DashboardComponent,
     ProfileComponent
   ],
-  imports:  [RouterModule.forRoot(appRoutes), FormsModule], // CommonModule
+  imports:  [RouterModule.forRoot(appRoutes), FormsModule, CommonModule, HttpModule], // CommonModule
   exports: [RouterModule]
 })
 
