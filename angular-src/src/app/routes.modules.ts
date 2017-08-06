@@ -27,7 +27,12 @@ const appRoutes: Routes = [
     DashboardComponent,
     ProfileComponent
   ],
-  imports:  [RouterModule.forRoot(appRoutes), FormsModule, CommonModule, HttpModule], // CommonModule
+  imports:  [
+    CommonModule, 
+    RouterModule.forRoot(appRoutes),
+    FormsModule, 
+    HttpModule
+  ], // CommonModule
   exports: [RouterModule]
 })
 

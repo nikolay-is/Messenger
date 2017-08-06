@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 // import { FormsModule }   from '@angular/forms';
 // import { HttpModule } from '@angular/http';
+import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -19,10 +20,12 @@ import { FlashMessagesModule } from 'angular2-flash-messages';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
+    // CommonModule,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     AppRoutesModule,
     FlashMessagesModule
   ],
